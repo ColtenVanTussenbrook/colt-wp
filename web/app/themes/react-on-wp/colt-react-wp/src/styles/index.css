@@ -1,0 +1,19 @@
+@tailwind base;
+
+p {
+    @apply font-serif;
+}
+
+h1 {
+    @apply font-heading;
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 400;
+    src: url(../assets/fonts/Futura.ttc) format("ttc");
+}
+
+@tailwind components;
+
+@tailwind utilities;
